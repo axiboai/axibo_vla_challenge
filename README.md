@@ -20,7 +20,7 @@ We are deliberately not giving you a dataset. In our experience the data engine 
 
 Collect your own demonstration dataset for a language-conditioned pick-and-place task using a scripted policy.
 
-* **Method:** Use Genesis's [batched IK](https://github.com/Genesis-Embodied-AI/Genesis/blob/main/examples/tutorials/batched_IK.py) to script the motion and collect across many randomized environments in parallel. Teleoperation is not expected, automated collection is the point.
+* **Method:** Use Genesis's [batched IK](https://github.com/Genesis-Embodied-AI/Genesis/blob/main/examples/tutorials/batched_IK.py) (or any other IK method you prefer) to script the motion and collect across many randomized environments in parallel. Teleoperation is not expected, automated collection is the point.
 * **Scene:** A tabletop containing a **red cube, a red cylinder, and a blue cube**. Each episode is paired with a natural language instruction naming the target object.
 * **Export:** Save to a standard format (LeRobot is fine, or justify your own).
 * **Challenge:** You are choosing the action space, the observation setup, the randomization ranges, and how many episodes to collect. Document each of these decisions and why you made it. We care more about this reasoning than about the episode count.
