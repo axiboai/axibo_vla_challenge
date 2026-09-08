@@ -72,6 +72,8 @@ That is all. The dataset, the scene, and the evaluation harness are yours to bui
 
 Please find the PiperX model here: https://github.com/agilexrobotics/piper_isaac_sim/tree/master/piper_x_description/urdf
 
+You may use any AI coding tools for this challenge.
+
 ---
 
 ## Submission Requirements
